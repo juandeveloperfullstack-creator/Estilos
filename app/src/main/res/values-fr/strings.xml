@@ -1,0 +1,52 @@
+<resources>
+    <!-- Nombre general de la aplicación -->
+    <string name="app_name">Application Pratiques</string>
+
+    <!-- Cadenas del Ejercicio 3 (Buttons) -->
+    <string name="title_bar">Boutons</string>
+    <string name="raised_button">Bouton Surélevé</string>
+    <string name="flat_button">Bouton Plat</string>
+    <string name="btn_normal">NORMAL</string>
+    <string name="btn_pressed">APPUYÉ</string>
+    <string name="btn_disabled">DÉSACTIVÉ</string>
+
+    <!-- Cadenas del Ejercicio 4 (Two Activities) -->
+    <string name="title_activity_two">Deux Activités</string>
+    <string name="text_header">Réponse Reçue</string>
+    <string name="text_message">Ceci est ma réponse</string>
+    <string name="editText_main">Entrez votre message ici</string>
+    <string name="button_main">ENVOYER</string>
+
+    <!-- Cadenas del Ejercicio 5 -->
+    <string name="title_home">Accueil</string>
+    <string name="btn_navigate_destination">NAVIGUER VERS LA DESTINATION</string>
+    <string name="btn_navigate_action">NAVIGUER AVEC ACTION</string>
+    <string name="nav_home">Accueil</string>
+
+    <!-- Ejercicio 6: Radio Button Tutorial -->
+    <string name="title_radio_tutorial">Tutoriel Radio Button</string>
+    <string name="question_highest_mountain">Quelle est la montagne la plus haute du monde?</string>
+    <string name="option_matterhorn">Cervin (Matterhorn)</string>
+    <string name="option_olympus">Mont Olympe</string>
+    <string name="option_everest">Mont Everest</string>
+    <string name="option_fuji">Mont Fuji</string>
+    <string name="btn_submit_answer">SOUMETTRE LA RÉPONSE</string>
+
+    <!-- Ejercicio 7: RoomDemo -->
+    <string name="room_demo_title">RoomDemo</string>
+    <string name="label_product_id">ID de Produit</string>
+    <string name="value_not_assigned">Non attribué</string>
+    <string name="label_product_name">Nom du Produit</string>
+    <string name="label_product_quantity">Quantité de Produit</string>
+    <string name="btn_add">AJOUTER</string>
+    <string name="btn_delete">SUPPRIMER</string>
+    <string name="btn_find">TROUVER</string>
+
+    <!-- Ejercicio 8: CardView App -->
+    <string name="cardview_app_title">CardView App</string>
+    <string name="settings_text">PARAMÈTRES</string>
+    <string name="card_call">Appeler</string>
+    <string name="card_chat">Discuter</string>
+    <string name="card_comment">Commenter</string>
+    <string name="card_duo">Duo</string>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Estilos App</string>
+
+    <!-- Cadenas del Ejercicio 3 (Buttons) -->
+    <string name="title_bar">Buttons</string>
+    <string name="raised_button">Raised Button</string>
+    <string name="flat_button">Flat Button</string>
+    <string name="btn_normal">NORMAL</string>
+    <string name="btn_pressed">PRESSED</string>
+    <string name="btn_disabled">DISABLED</string>
+
+    <!-- Cadenas del Ejercicio 4 (Two Activities) -->
+    <string name="title_activity_two">Two Activities</string>
+    <string name="text_header">Reply Received</string>
+    <string name="text_message">This is my reply</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="button_main">SEND</string>
+
+    <!-- Cadenas del Ejercicio 5 -->
+    <string name="title_home">Home</string>
+    <string name="btn_navigate_destination">NAVIGATE TO DESTINATION</string>
+    <string name="btn_navigate_action">NAVIGATE WITH ACTION</string>
+    <string name="nav_home">Home</string>
+
+    <!-- Ejercicio 6: Radio Button Tutorial -->
+    <string name="title_radio_tutorial">Radio Button Tutorial</string>
+    <string name="question_highest_mountain">What is the world\'s highest mountain?</string>
+    <string name="option_matterhorn">Matterhorn</string>
+    <string name="option_olympus">Mount Olympus</string>
+    <string name="option_everest">Mount Everest</string>
+    <string name="option_fuji">Mount Fuji</string>
+    <string name="btn_submit_answer">SUBMIT ANSWER</string>
+
+    <!-- Ejercicio 7: RoomDemo -->
+    <string name="room_demo_title">RoomDemo</string>
+    <string name="label_product_id">Product ID</string>
+    <string name="value_not_assigned">Not assigned</string>
+    <string name="label_product_name">Product Name</string>
+    <string name="label_product_quantity">Product Quantity</string>
+    <string name="btn_add">ADD</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_find">FIND</string>
+
+    <!-- Ejercicio 8: CardView App -->
+    <string name="cardview_app_title">CardView App</string>
+    <string name="settings_text">SETTINGS</string>
+    <string name="card_call">Call</string>
+    <string name="card_chat">Chat</string>
+    <string name="card_comment">Comment</string>
+    <string name="card_duo">Duo</string>
+</resources>

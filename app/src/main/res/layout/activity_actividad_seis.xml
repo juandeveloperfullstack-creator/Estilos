@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    tools:context=".ActividadSeis">
+
+    <!-- Barra superior verde teal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#00897B"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_radio_tutorial"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Contenido del cuestionario -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Pregunta -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/question_highest_mountain"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+
+        <!-- Grupo de Opciones -->
+        <RadioGroup
+            android:id="@+id/radioGroupMountains"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/radioMatterhorn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_matterhorn"
+                android:textColor="#424242"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/radioOlympus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_olympus"
+                android:textColor="#424242"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/radioEverest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/option_everest"
+                android:textColor="#424242"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/radioFuji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_fuji"
+                android:textColor="#424242"
+                android:textSize="15sp" />
+
+        </RadioGroup>
+
+        <!-- Botón para enviar respuesta -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:backgroundTint="#D6D6D6"
+            android:text="@string/btn_submit_answer"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>
